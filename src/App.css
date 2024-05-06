@@ -23,6 +23,35 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.transactionheading{
+  height: 150px;
+  width: 130px;
+  display: flex;
+  flex-direction: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.inputsearch{
+  background-color: #f5b042;
+  margin-top: 5px;
+  box-sizing: 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.selectmonth{
+  background-color: #f5b642;
+  color: black;
+  display: flex;
+  padding: 5px;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +64,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.search-month-selector-container {
+  display: flex;
 }
